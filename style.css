@@ -8,3 +8,39 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed; /* Header position stay top */
+    z-index: 999; /* Header Stay on the the top layer*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em; /* em relative to default font size 1.8 * 16 */    
+}
+
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
+    transition: 1.5s;
+}
+
+
+
