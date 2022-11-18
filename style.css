@@ -42,5 +42,68 @@ header{
     transition: 1.5s;
 }
 
+section {
+    padding: 100px 200px;
 
+}
 
+.main{
+    width: 100%;
+    min-height: 100vh; /* view port */
+    display: flex;
+    align-items: center;
+    background: url(images/cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* image will not change on scroll */
+
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    color: #d1e231;
+    font-weight: 600;
+    font-size: 3em;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.main-button{
+    color: #fff;
+    background-color: #d1e231;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9em 2.1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-button:hover{
+    background-color: #5f680e;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
