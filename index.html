@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,15 @@
 
     <title>Company Website</title>
 </head>
+
 <body>
-    
+
     <header>
         <a href="#" class="logo">Tech Company</a>
         <nav class="navigation">
-            <a href="#services" >Services</a>
-            <a href="#projects" >Projects</a>
-            <a href="#contact" >Contact</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -34,5 +36,33 @@
         </div>
     </section>
 
+    <section id="contact" class="contact-us">
+
+        <h2>CONTACT US</h2>
+        <p>Here you can send to us anything in your mind</p>
+        <form method="post">
+            <div class="contact-container">
+                <div class="contact-first-col">
+                    <input type="text" placeholder="YOUR NAME *" required>
+                    <input type="email" placeholder="YOUR E-MAIL *" required>
+                    <input type="text" placeholder="SUBJECT">
+
+
+                </div>
+                <div class="contact-second-col">
+                    <textarea placeholder="YOUR MESSAGE *" required></textarea>
+
+
+                </div>
+
+            </div>
+
+            <input class="contact-us-button" type="submit" value="SEND MESSAGE">
+
+        </form>
+
+    </section>
+
 </body>
+
 </html>
