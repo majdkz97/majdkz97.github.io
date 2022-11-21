@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
+    
     <title>Company Website</title>
 </head>
 <body>
@@ -37,20 +37,67 @@
         <h2 class="section-name">Our Portofolio</h2>
            <div class="selector-center">
                 <div class="type-selector">
-                    <input type="checkbox" id="switch">
-                    <div  class="right" >
-                        <label for="switch">programing</label>
-                    </div>
-                    <div class="left">
-                       <label for="switch">design</label>
-                    </div>
+                    <input class="check" type="checkbox" id="switch" onclick="myfuck()">
+                    <label class="right" for="switch">
+                        
+                            <label id="prog">Programing</label>
+                        
+                        
+                    </label>
+                    <label class="left" for="switch">
+                      
+                            <label id="des">Design</label>
+                        
+                        
+                    </label>
+                    
+                    
                     
                 </div>
             </div>
             
 
         <div class="porto-cards">
-            <div class="card">
+          <div class="programing-cards">
+            <div class="card" id="programing">
+                <div class="card-imag">
+                    <img src="images/Screenshot (288).png" alt="">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+            <div class="card" id="programing">
+                <div class="card-imag">
+                    <img src="images/Screenshot (288).png" alt="">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+            <div class="card" id="programing">
+                <div class="card-imag">
+                    <img src="images/Screenshot (288).png" alt="">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+            <div class="card" id="programing">
+                <div class="card-imag">
+                    <img src="images/Screenshot (288).png" alt="">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+          </div>
+          <div class="design-cards">
+            <div class="card" id="design">
                 <div class="card-imag">
                     <img src="images/Screenshot (288).png" alt="">
                 </div>
@@ -59,7 +106,7 @@
                 </div>
                 
             </div>
-            <div class="card">
+            <div class="card" id="design">
                 <div class="card-imag">
                     <img src="images/Screenshot (288).png" alt="">
                 </div>
@@ -68,7 +115,7 @@
                 </div>
                 
             </div>
-            <div class="card">
+            <div class="card" id="design">
                 <div class="card-imag">
                     <img src="images/Screenshot (288).png" alt="">
                 </div>
@@ -77,7 +124,7 @@
                 </div>
                 
             </div>
-            <div class="card">
+            <div class="card" id="design">
                 <div class="card-imag">
                     <img src="images/Screenshot (288).png" alt="">
                 </div>
@@ -86,8 +133,9 @@
                 </div>
                 
             </div>
+          </div>
         </div>
     </section>
-
+    <script src="app.js"></script>
 </body>
 </html>
