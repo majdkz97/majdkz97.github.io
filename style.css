@@ -197,7 +197,7 @@ section {
 
 /*END CONTACT US SECTION */
 .Portofolio{
-    padding: 10px;
+    padding: 40px;
     background-color: #ffffff;
    
     width: 100%;
@@ -228,7 +228,7 @@ justify-content: center;
 align-items: center;
 width: 500px;
 }
-.right{
+.switch-programming{
     box-sizing: unset;
     background-color: #fff;
     text-align: center;
@@ -241,7 +241,7 @@ width: 500px;
     transition: all 0.5s ease;
    cursor: pointer;
 }
-.left{
+.switch-design{
     box-sizing: unset;
    
     background-color: #fff;
@@ -258,11 +258,15 @@ width: 500px;
 .card{
    box-shadow:0px 0px 15px rgba(68, 68, 68, 0.6) ;
  overflow: hidden;
-width: 15em;
+ width: 20em;
+ height: 20em;
 border-radius: 1rem;
 margin: 15px;
 background-color: rgb(255, 255, 255);
 transition: all 0.5s ease;
+display: flex;
+flex-direction: column;
+
 
 }
 .card:hover{
@@ -270,20 +274,20 @@ transition: all 0.5s ease;
     transform: translate(0px,-20px);
   
 }
-.card-imag img{
-   
-    width: 100%;
-    
-}
+
 .card-imag{
     overflow: hidden;
+    height: 75%;
+    background-image: url("images/Screenshot (288).png");
+    background-size: cover;
+    background-position: center;
 }
 .card-info{
     padding: 10px;
+    height: 25%;
+
 }
-.check{
-    display: none;
-}
+
 #programing{
     display: none;
 }

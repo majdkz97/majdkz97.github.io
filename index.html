@@ -17,7 +17,7 @@
         <a href="#" class="logo">the Company</a>
         <nav class="navigation">
             <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
+            <a href="#portofolio">Portofolio</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -35,18 +35,16 @@
             </div>
         </div>
     </section>
-    <section class="Portofolio" id="porto">
+    <section class="Portofolio" id="portofolio">
         <h2 class="section-name">Our Portofolio</h2>
            <div class="selector-center">
                 <div class="type-selector">
-                    <input class="check" type="checkbox" id="switch" onclick="myfuck()">
-                    <label class="right" for="switch">
+                    <label class="switch-programming" for="switch" onclick="onChangeSection(0)">
                         
                             <label id="prog">Programing</label>
                         
-                        
                     </label>
-                    <label class="left" for="switch">
+                    <label class="switch-design" for="switch" onclick="onChangeSection(1)">
                       
                             <label id="des">Design</label>
                         
@@ -58,6 +56,80 @@
                 </div>
             </div>
             
+
+
+        <div class="porto-cards">
+          <div class="programing-cards">
+            <div class="card" id="programing">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+            <div class="card" id="programing">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+            <div class="card" id="programing">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+            <div class="card" id="programing">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>pro</span>
+                </div>
+                
+            </div>
+          </div>
+          <div class="design-cards">
+            <div class="card" id="design">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>card</span>
+                </div>
+                
+            </div>
+            <div class="card" id="design">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>card</span>
+                </div>
+                
+            </div>
+            <div class="card" id="design">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>card</span>
+                </div>
+                
+            </div>
+            <div class="card" id="design">
+                <div class="card-imag">
+                </div>
+                <div class="card-info">
+                    <span>card</span>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+    </section>
+
 
     <section id="contact" class="contact-us">
 
@@ -86,85 +158,7 @@
 
     </section>
 
-        <div class="porto-cards">
-          <div class="programing-cards">
-            <div class="card" id="programing">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>pro</span>
-                </div>
-                
-            </div>
-            <div class="card" id="programing">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>pro</span>
-                </div>
-                
-            </div>
-            <div class="card" id="programing">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>pro</span>
-                </div>
-                
-            </div>
-            <div class="card" id="programing">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>pro</span>
-                </div>
-                
-            </div>
-          </div>
-          <div class="design-cards">
-            <div class="card" id="design">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>card</span>
-                </div>
-                
-            </div>
-            <div class="card" id="design">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>card</span>
-                </div>
-                
-            </div>
-            <div class="card" id="design">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>card</span>
-                </div>
-                
-            </div>
-            <div class="card" id="design">
-                <div class="card-imag">
-                    <img src="images/Screenshot (288).png" alt="">
-                </div>
-                <div class="card-info">
-                    <span>card</span>
-                </div>
-                
-            </div>
-          </div>
-        </div>
-    </section>
+    
     <script src="app.js"></script>
 </body>
 
