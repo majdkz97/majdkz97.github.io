@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -9,11 +9,13 @@
     scroll-behavior: smooth;
 }
 
-header{
+header {
     background-color: #f0f0f0;
     width: 100%;
-    position: fixed; /* Header position stay top */
-    z-index: 999; /* Header Stay on the the top layer*/
+    position: fixed;
+    /* Header position stay top */
+    z-index: 999;
+    /* Header Stay on the the top layer*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,15 +23,16 @@ header{
 
 }
 
-.logo{
+.logo {
     text-decoration: none;
     color: #3a6cf4;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em; /* em relative to default font size 1.8 * 16 */    
+    font-size: 1.8em;
+    /* em relative to default font size 1.8 * 16 */
 }
 
-.navigation a{
+.navigation a {
     color: #3a6cf4;
     text-decoration: none;
     font-size: 1.5em;
@@ -37,25 +40,27 @@ header{
     padding-left: 30px;
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: #601cfc;
     transition: 1.5s;
 }
 
 section {
-    padding: 100px 200px;
+    padding: 100px 10%;
 
 }
 
-.main{
+.main {
     width: 100%;
-    min-height: 100vh; /* view port */
+    min-height: 100vh;
+    /* view port */
     display: flex;
     align-items: center;
     background: url(images/cover.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* image will not change on scroll */
+    background-attachment: fixed;
+    /* image will not change on scroll */
 
 }
 
@@ -65,7 +70,7 @@ section {
     font-weight: 500;
 }
 
-.main h2 span{
+.main h2 span {
     color: #d1e231;
     font-weight: 600;
     font-size: 3em;
@@ -83,7 +88,7 @@ section {
 
 }
 
-.main-button{
+.main-button {
     color: #fff;
     background-color: #d1e231;
     text-decoration: none;
@@ -97,13 +102,97 @@ section {
     transition: 0.7s ease;
 }
 
-.main-button:hover{
+.main-button:hover {
     background-color: #5f680e;
     transform: scale(1.1);
 }
 
-.social-icons a{
+.social-icons a {
     color: #fff;
     font-size: 1.7em;
     padding-right: 30px;
 }
+
+/* START CONTACT US SECTION */
+
+.contact-us {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #76cdf0;
+}
+
+.contact-us form {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.contact-container div {
+    width: 50%;
+}
+
+.contact-first-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-first-col input {
+    display: block;
+    padding: 20px;
+    margin: 25px 0;
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+.contact-second-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-second-col textarea {
+    resize: none;
+    width: 100%;
+    margin: 25px;
+    height: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 20px;
+}
+
+
+.contact-us-button {
+
+    color: #fff;
+    background-color: #d1e231;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9em 2.1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.contact-us-button:hover {
+    background-color: #5f680e;
+    transform: scale(1.1);
+}
+
+/*END CONTACT US SECTION */
