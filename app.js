@@ -1,8 +1,22 @@
+const serivceUrl = "https://thecompany2022.000webhostapp.com/services.php";
+
 let programingCards=document.querySelectorAll("#programing");
 let designCards=document.querySelectorAll('#design');
 let switchProgramming=document.querySelector('.switch-programming');
 let switchDesign =document.querySelector('.switch-design');
+let loader =document.querySelector('#loader');
 let previousIndex = 0; //Default Active section is programming
+
+
+fetch(serivceUrl)       
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+    console.log(data)
+    loader.style.display = "none";
+  });
+
+
 
 
 switchProgramming.style.border='10px solid';
@@ -62,3 +76,5 @@ if(previousIndex!=selectedIndex)
 //   c[i].style.display='none';
 
 // }
+
+
