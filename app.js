@@ -17,7 +17,8 @@ fetch(serivceUrl)
   });
 
 
-
+  const node = document.querySelector('.card1');
+  [...Array(6)].forEach(_ => node.parentNode.insertBefore(node.cloneNode(true), node));
 
 switchProgramming.style.border='10px solid';
 switchDesign.style.border='1px solid';

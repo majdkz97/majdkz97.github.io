@@ -39,6 +39,72 @@
             </div>
         </div>
     </section>
+
+    <section class="Services" id="services">
+        <h2 class="title">Services</h2>
+    
+        <div class="parent">
+        <div class="content">
+         <div class="card1" id="service-child-card">
+            <div class="info">
+                <div class="service-child" >
+                    <h3>Script writing</h3> <br>
+                 
+                    <p>our programming services 
+                        that we provide it to you our programming services 
+                        that we provide it to you our programming services 
+                        that we provide it to you</p>
+                    </div>
+             
+                    <div class="service-child">
+                        <button class="main-button" onclick="show_pop()">View more</button>
+                    </div>
+            </div>
+        </div>
+         
+        
+     
+        </div>
+        <div class="pop-up" id="pup">
+            <h2 class="pop-title">Service Details</h2>
+            <p>this is the service we provide you can choose
+                 what you want from this service</p>
+                 <div class="service-select">
+                 <label  for="service-type ">Service Type : </label>
+                 <select name="Service Type" id="service-type">
+                    
+                    <option value="">Course</option>
+                    <option value="">in person</option>
+                    <option value="">Applications</option>
+        
+                 </select>
+                 <br>
+                 <label for="service-price">service price : </label>
+                 <select name="" id="service-price">
+                    <option value="">50$</option>
+                    <option value="">100$</option>
+                    <option value="">200$</option>
+                    <option value="">300$</option>
+                 </select>
+                 <br>
+                </div>
+            <button class="service-close-btn" id="service-close-bt" onclick="hide_pop()">Back</button>
+                 
+        </div>
+        </div>
+        <script src="main.js"></script>
+        <script>
+            function show_pop(){
+        document.getElementById('pup').classList.add('open');
+        
+            }
+            function hide_pop(){
+        document.getElementById('pup').classList.remove('open');
+        
+            }
+        </script>
+        </section>
+
     <section class="Portofolio" id="portofolio">
         <h2 class="section-name">Our Portofolio</h2>
            <div class="selector-center">
@@ -133,6 +199,7 @@
           </div>
         </div>
     </section>
+
 
 
     <section id="contact" class="contact-us">
