@@ -5,6 +5,9 @@ let switchDesign =document.querySelector('.switch-design');
 let previousIndex = 0; //Default Active section is programming
 
 
+
+
+
 switchProgramming.style.border='10px solid';
 switchDesign.style.border='1px solid';
   for(let i=0;i<programingCards.length;i++)
@@ -56,9 +59,3 @@ if(previousIndex!=selectedIndex)
   
 }}
 
-
-// for(let i=0;i<c.length;i++)
-// {
-//   c[i].style.display='none';
-
-// }

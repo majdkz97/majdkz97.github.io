@@ -211,6 +211,16 @@ section {
     flex-direction: row;
     justify-content: center;
 }
+
+.porto-cards{
+    width: 100%;
+    padding: 1em;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
 .section-name{
  text-align: center;
  margin-bottom: 2em;
@@ -275,6 +285,7 @@ flex-direction: column;
   
 }
 
+
 .card-imag{
     overflow: hidden;
     height: 75%;
@@ -300,4 +311,31 @@ flex-direction: column;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.portofoilo-info-cards{
+    width: 100%;
+    padding: 1em;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#portofoilo-info{
+    text-decoration: none;
+    
+}
+.portofoilo-info-cards{
+    margin-top: 4em;
+}
+.card-info{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.newtap{
+    background-color: #f0f0f0;
+    background-image: none;
+    transition: all 0.5s ease;
 }
