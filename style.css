@@ -199,6 +199,83 @@ section {
 
 /*---End About Us Section---*/
 
+
+
+/*---Start Our Team Section---*/
+.our_team {
+    background-color: rgb(24, 24, 24);
+ }
+
+.our_team .content {
+    margin-top: 30px;
+}
+
+.team-member {
+    min-height: 20em;
+    width: 20em;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.member-image img:hover {
+    transform: scale(1.1);
+}
+
+.team-member:hover .member-image {
+    opacity: 0.9;
+}
+
+.member-image img {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 15em;
+    width: 15em;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+    transition: 0.7s ease;
+    box-shadow: 0 0 2px 0 rgb(255, 255, 255);
+}
+
+.member-info {
+    padding: 1em;
+}
+
+.member-specialization {
+    font-size: 0.8em;
+    color: rgb(255, 248, 248);
+}
+
+.member-name {
+    display: flex;
+    color: rgb(255, 251, 251);
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.social i {
+    border-radius: 50%;
+    padding: 7px;
+    width:35px;
+    height: 35px;
+    border: 2px solid rgb(255, 255, 255)
+}
+
+.social i:hover {
+    color: #601cfc;
+}
+/*---End Our Team Section---*/
+
+
+
+
+
+
+
+
 footer {
     background-color: #4e9eff;
     padding: 20px 0 30px;
