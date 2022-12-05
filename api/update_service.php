@@ -16,8 +16,9 @@ if ($conn->connect_error) {
 $id = $_GET['id'];
 $title = $_GET['title'];
 $description = $_GET['description'];
+$details = $_GET['details'];
 
-$sql = "UPDATE Service SET title='$title', description='$description' WHERE id='$id'";
+$sql = "UPDATE Service SET title='$title', description='$description', details='$details' WHERE id='$id'";
 $result = $conn->query($sql);
 $rows = array();
  

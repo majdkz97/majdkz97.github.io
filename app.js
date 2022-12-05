@@ -1,10 +1,12 @@
+
+getServicesFunction();
+
 let programingCards=document.querySelectorAll("#programing");
 let designCards=document.querySelectorAll('#design');
 let switchProgramming=document.querySelector('.switch-programming');
 let switchDesign =document.querySelector('.switch-design');
-let previousIndex = 0; //Default Active section is programming
-
-
+let previousIndex = 0; 
+//Default Active section is programming
 
 
 ///animation button
@@ -80,32 +82,6 @@ function show_pop(){
   document.getElementById('pup').classList.remove('open');
   
       }
-
-/*card animation*/
- const card = document.querySelectorAll('.card_anim');
- const btn = document.querySelectorAll('.service-child');
- const backBtn=document.querySelectorAll('.backBtn');
- const iconBtn=document.querySelector('.backBtn');
- for(i=0;i<backBtn.length;i++)
- {
-
- }
-
-btn[0].addEventListener('click',()=>{ card[0].classList.toggle('rotated');});
-backBtn[0].addEventListener('click',()=>{ card[0].classList.toggle('rotated');});
- 
-btn[1].addEventListener('click',()=>{ card[1].classList.toggle('rotated');});
-backBtn[1].addEventListener('click',()=>{ card[1].classList.toggle('rotated');});
-
-btn[2].addEventListener('click',()=>{ card[2].classList.toggle('rotated');});
-backBtn[2].addEventListener('click',()=>{ card[2].classList.toggle('rotated');});
-
-btn[3].addEventListener('click',()=>{ card[3].classList.toggle('rotated');});
-backBtn[3].addEventListener('click',()=>{ card[3].classList.toggle('rotated');});
-
-btn[4].addEventListener('click',()=>{ card[4].classList.toggle('rotated');});
-backBtn[4].addEventListener('click',()=>{ card[4].classList.toggle('rotated');});
-
 
 
 
