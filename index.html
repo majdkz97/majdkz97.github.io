@@ -9,22 +9,25 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     
-    <title>Company Website</title>
+    <title>Codea-X</title>
 </head>
 
 <body>
 
     <header>
-        <a href="#" class="logo">the Company</a>
+        <a href="#" class="logo">codea-x</a>
         <nav class="navigation">
             <a href="#services">Services</a>
             <a href="#portofolio">Portofolio</a>
             <a href="#contact">Contact</a>
         </nav>
+        <div class="nav-icon" id="nav-click" onclick="show_menu(1)">
+            ---
+          </div>
     </header>
 
     <section class="main">
-        <div>
+        <div class="inside_main_info">
             <h2>Hello, We are Tech Company<br><span>Technical Solutions</span></h2>
             <h3>We Build smart solution for your work</h3>
             <a href="#services" class="main-button">View our services</a>
@@ -35,22 +38,255 @@
                 <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
+        <div class="nav-menu" id="navi-menu">
+            <div class="nav-menu-icons">
+                <a  class="name" id="ser" href="#services">Services</a>
+                <br>
+                <a  class="name" id="pro" href="#portofolio">Portofolio</a>
+                <br>
+                <a  class="name" id="con" href="#contact">Contact</a>
+            </div>
+        </div>
+    </section>
+    <section class="Services" id="services">
+        <h2 class="title">Services</h2>
+    
+        <div class="parent">
+            <div class="cards-wrapper">
+                <div class="card-container">
+                  <div class="card_anim">
+                    <div class="card-contents card-front">
+                      <div class="card-depth">
+                        <h2 class="name_of_card">Script writing</h2>
+                        <hr>
+                        
+                        <p>ur programming services </p>
+                        <span class="small_discription">ur programming 
+                            servisgdffdsfdsgfdgfdgsf
+                            dgfsdgfsdgfsdgsfgfsdg
+                            fsgfgdsfgsfdgfsdg
+                            
+                            ldkfjs;dkfjs;ldflds </span>
+                        <div class="service-child">
+                            <button class="main-button">View more</button>
+                           
+                       </div>   
+                      </div>
+                    </div>
+                    <div class="card-contents card-back">
+                        <span class="backBtn">
+                         go back </span>
+                        <div class="info_price">
+                            
+                            <div class="card-depth">
+                                <h2 class="pricing">pricing :</h2>
+                                <hr>
+                                
+                            </div>
+                            <div class="Type"> 
+                                <label class="servicePrice" for="service-price">course type : </label>
+                                <select class="Ctype" name="Service_Type" id="service-type">
+                                
+                                        <option value="">Course</option>
+                                        <option value="">in person</option>
+                                        <option value="">Applications</option>
+                            
+                                </select>
+                            </div>
+                            <div class="Price">
+                                <label class="servicePrice" for="service-price">service price : </label>
+                                <select class="Sprice" name="" id="service-price">
+                                        <option value="">50$</option>
+                                        <option value="">100$</option>
+                                        <option value="">200$</option>
+                                        <option value="">300$</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card-container">
+                  <div class="card_anim">
+                    <div class="card-contents card-front">
+                      <div class="card-depth">
+                        <h2 class="name_of_card">Script writing</h2>
+                        <hr>
+                        
+                        <p>ur programming services </p>
+                        <span class="small_discription">ur programming 
+                            servisgdffdsfdsgfdgfdgsf
+                            dgfsdgfsdgfsdgsfgfsdg
+                            fsgfgdsfgsfdgfsdg
+                            
+                            ldkfjs;dkfjs;ldflds  </span>
+                        <div class="service-child">
+                            <button class="main-button">View more</button>
+                           
+                       </div>   
+                      </div>
+                    </div>
+                    <div class="card-contents card-back">
+                        <span class="backBtn" id="button">
+                           go back
+                           </span>  
+                        <div class="info_price">
+                            
+                            <div class="card-depth">
+                                <h2 class="pricing">pricing :</h2>
+                                <hr>
+                                
+                            </div>
+                            <div class="Type"> 
+                                <label class="servicePrice" for="service-price">course type : </label>
+                                <select class="Ctype" name="Service_Type" id="service-type">
+                                
+                                        <option value="">Course</option>
+                                        <option value="">in person</option>
+                                        <option value="">Applications</option>
+                            
+                                </select>
+                            </div>
+                            <div class="Price">
+                                <label class="servicePrice" for="service-price">service price : </label>
+                                <select class="Sprice" name="" id="service-price">
+                                        <option value="">50$</option>
+                                        <option value="">100$</option>
+                                        <option value="">200$</option>
+                                        <option value="">300$</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card-container">
+                  <div class="card_anim">
+                    <div class="card-contents card-front">
+                      <div class="card-depth">
+                        <h2 class="name_of_card">Script writing</h2>
+                        <hr>
+                        
+                        <p>ur programming services </p>
+                        <span class="small_discription">ur programming 
+                            servisgdffdsfdsgfdgfdgsf
+                            dgfsdgfsdgfsdgsfgfsdg
+                            fsgfgdsfgsfdgfsdg
+                            
+                            ldkfjs;dkfjs;ldflds  </span>
+                        <div class="service-child">
+                            <button class="main-button">View more</button>
+                           
+                       </div>   
+                      </div>
+                    </div>
+                    <div class="card-contents card-back">
+                        <span class="backBtn" id="button">
+                           go back
+                           </span>  
+                        <div class="info_price">
+                            
+                            <div class="card-depth">
+                                <h2 class="pricing">pricing :</h2>
+                                <hr>
+                                
+                            </div>
+                            <div class="Type"> 
+                                <label class="servicePrice" for="service-price">course type : </label>
+                                <select class="Ctype" name="Service_Type" id="service-type">
+                                
+                                        <option value="">Course</option>
+                                        <option value="">in person</option>
+                                        <option value="">Applications</option>
+                            
+                                </select>
+                            </div>
+                            <div class="Price">
+                                <label class="servicePrice" for="service-price">service price : </label>
+                                <select class="Sprice" name="" id="service-price">
+                                        <option value="">50$</option>
+                                        <option value="">100$</option>
+                                        <option value="">200$</option>
+                                        <option value="">300$</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        
+            <!-- <div class="content">
+            
+             <div class="card_services">
+                    
+                <h3 class="card_service_title">Script writing</h3> 
+                
+                <p >our programming services 
+                    that we provide it to you our programming services 
+                    that we provide it to you our programming services 
+                    that we provide it to you</p>
+                    
+                        
+                <div class="service-child">
+                     <button class="main-button">View more</button>
+                    
+                </div>   
+             </div> -->
+            
+            
+            
+        
+        </div>
+       
+            <!-- <div class="pop-up" id="pup">
+            <h2 class="pop-title">Service Details</h2>
+            <p>this is the service we provide you can choose
+                 what you want from this service</p>
+                 <div class="service-select">
+                 <label  for="service-type ">Service Type : </label>
+                 <select name="Service Type" id="service-type">
+                    
+                    <option value="">Course</option>
+                    <option value="">in person</option>
+                    <option value="">Applications</option>
+        
+                 </select>
+                 <br>
+                 <label for="service-price">service price : </label>
+                 <select name="" id="service-price">
+                    <option value="">50$</option>
+                    <option value="">100$</option>
+                    <option value="">200$</option>
+                    <option value="">300$</option>
+                 </select>
+                 <br>
+                </div>
+            <button class="service-close-btn" id="service-close-bt" onclick="hide_pop()">Back</button>
+                 
+        </div> -->
+        
+       
     </section>
     <section class="Portofolio" id="portofolio">
-        <h2 class="section-name">Our Portofolio</h2>
+        <h2 class="title">Our Portofolio</h2>
            <div class="selector-center">
                 <div class="type-selector">
-                    <label class="switch-programming"  onclick="onChangeSection(0)">
+                    <div class="switch-programming"  onclick="onChangeSection(0)">
                         
                             <label id="prog">Programing</label>
                         
-                    </label>
-                    <label class="switch-design" onclick="onChangeSection(1)">
+                    </div>
+                    <div class="switch-design" onclick="onChangeSection(1)">
                       
                             <label id="des">Design</label>
                         
                         
-                    </label>
+                    </div>
                     
                     
                     
@@ -60,6 +296,7 @@
 
 
         <div class="porto-cards">
+            
           <div class="programing-cards">
             <a href="portofoilo info.html" id="portofoilo-info">
                 <div class="card" id="programing" >
@@ -145,6 +382,149 @@
         </div>
     </section>
 
+    <!---Start About us Section--->
+    <section id="about" class="about-us">
+        <h2 class="title">ABOUT US</h2>
+        <div class="content">
+            <div class="our-story">
+                <div class="what-we-do-left">
+                    <h3>July 2019<br />
+                        our Humble Beginnings
+                    </h3>
+                    <p>Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt. Proin
+                        iaculis purus consequat sem cure digni
+                        ssim. Donec porttitora entum suscipit aenean.
+                    </p>
+                </div>
+                <div class="clear-fix back back1">
+                    <div></div>
+                </div>
+                <div class="what-we-do-right">
+                    <h3>January 2020 <br />
+                        Dark days
+                    </h3>
+                    <p>Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt. Proin
+                        iaculis purus consequat sem cure digni
+                        ssim. Donec porttitora entum suscipit aenean.
+                    </p>
+                </div>
+                <div class="clear-fix back back2">
+                    <div></div>
+                </div>
+                <div class="what-we-do-lefti">
+                    <h3>December 2021 <br />
+                        Back!
+                    </h3>
+                    <p>Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt. Proin
+                        iaculis purus consequat sem cure digni
+                        ssim. Donec porttitora entum suscipit aenean.
+                    </p>
+                </div>
+                <div class="clear-fix back back3">
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+
+    
+
+
+    <!--Start Our Team Section-->
+    <section class="our_team" id="our_team">
+        <h2 class="title">OUR TEAM</h2>
+        <div class="content">
+            <div class="content">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="member-info">
+                        <p class="member-specialization">Coder</p>
+                        <strong class="member-name">
+                            <span>Majd Kzmoz</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="member-info">
+                        <p class="">Coder</p>
+                        <strong class="member-name">
+                            <span>Mazen Yousef</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="member-info">
+                        <p class="member-specialization">Coder</p>
+                        <strong class="member-name">
+                            <span>Mohamad Nour Ali</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="member-info">
+                        <p class="member-specialization">Coder</p>
+                        <strong class="member-name">
+                            <span>Yazan ALali</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Our Team section-->
+
+
+
+
+
+    
+
+
 
     <section id="contact" class="contact-us">
 
@@ -167,12 +547,23 @@
 
             </div>
 
-            <input class="contact-us-button" type="submit" value="SEND MESSAGE">
+            <input class="main-button" type="submit" value="SEND MESSAGE">
 
         </form>
 
     </section>
-
+     
+    <footer>
+        <div class="container">
+            <div>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-google-plus-g"></i>
+            </div>
+            <p>&copy; Copyright 2022 Thech Company.com</p>
+        </div>
+    </footer>
     
     <script src="app.js"></script>
 </body>

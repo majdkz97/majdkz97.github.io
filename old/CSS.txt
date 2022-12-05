@@ -1,0 +1,198 @@
+/*---Start About Us Section---*/
+
+.about-us {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.about-us .our-story {
+    margin-top: 30px;
+    top: 75px;
+}
+
+
+.about-us .our-story .what-we-do-left {
+    float:left;
+    width: 33%;
+    position: relative;
+    height:70px;
+    margin-left: 3%;
+    text-align: right;
+}
+
+.about-us .our-story .what-we-do-right {
+    float:right;
+    width: 33%;
+    height:70px;
+    position: relative;
+    top: 75px;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.about-us .our-story .what-we-do-lefti {
+    float:left;
+    width: 33%;
+    position: relative;
+    top: 170px;
+    height:70px;
+    margin-left: 3%;
+    text-align: right;
+}
+
+.about-us .our-story p {
+    padding: 10px 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.about-us .our-story h3 {
+    font-size: 16px;
+    color: rgb(0, 0, 0)
+}
+
+.about-us .our-story .back {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid #eee;
+}
+
+.about-us .our-story .back1 {
+    background: url(../img/about-01.jpg);
+    background-position: 30%;
+    background-size: cover;
+}
+
+.about-us .our-story .back2 {
+    background: url(../img/about-02.jpg);
+    background-position: 15%;
+    top: 75px;
+    background-size: cover;
+}
+
+.about-us .our-story .back3 {
+    background: url(../img/about-03.jpg);
+    background-position: 45% 90%;
+    top: 150px;
+}
+
+.about-us .our-story .clear-fix > div {
+    position: absolute;
+    width:2px;
+    top: 100%;
+    left:50%;
+    background: #eee;
+    height: 150px
+}
+
+/*---End About Us Section---*/
+
+
+
+/*---Start Our Team Section---*/
+.our_team {
+    background-color: rgb(24, 24, 24);
+ }
+
+.our_team .content {
+    margin-top: 30px;
+}
+
+.team-member {
+    min-height: 20em;
+    width: 20em;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.member-image img:hover {
+    transform: scale(1.1);
+}
+
+.team-member:hover .member-image {
+    opacity: 0.9;
+}
+
+.member-image img {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 15em;
+    width: 15em;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+    transition: 0.7s ease;
+    box-shadow: 0 0 2px 0 rgb(255, 255, 255);
+}
+
+.member-info {
+    padding: 1em;
+}
+
+.member-specialization {
+    font-size: 0.8em;
+    color: rgb(255, 248, 248);
+}
+
+.member-name {
+    display: flex;
+    color: rgb(255, 251, 251);
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.social i {
+    border-radius: 50%;
+    padding: 7px;
+    width:35px;
+    height: 35px;
+    border: 2px solid rgb(255, 255, 255)
+}
+
+.social i:hover {
+    color: #601cfc;
+}
+/*---End Our Team Section---*/
+
+
+
+
+
+
+
+
+footer {
+    background-color: #4e9eff;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+
+footer .container {
+    position: relative
+}
+
+footer p {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:0;
+    color: rgb(0, 0, 0);
+    font-size: 14px
+    
+}
+
+footer .container i {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    width: 39px;
+    margin-right: 5px;
+    height: 39px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%
+}
