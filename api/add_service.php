@@ -15,8 +15,9 @@ if ($conn->connect_error) {
 
 $title = $_GET['title'];
 $description = $_GET['description'];
+$details = $_GET['details'];
 
-$sql = "INSERT INTO Service (title, description) VALUES ('$title', '$description')";
+$sql = "INSERT INTO Service (title, description, details) VALUES ('$title', '$description','$details')";
 $result = $conn->query($sql);
 $rows = array();
  

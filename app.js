@@ -1,5 +1,5 @@
 
-getServicesFunction();
+getServicesFunction(false);
 
 let programingCards=document.querySelectorAll("#programing");
 let designCards=document.querySelectorAll('#design');

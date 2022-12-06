@@ -49,7 +49,6 @@ header {
 }
 
 .nav-icon {
-    background: url(images/cover.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
