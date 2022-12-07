@@ -74,18 +74,7 @@ if(previousIndex!=selectedIndex)
  
   
 }}
-function show_pop(){
-  document.getElementById('pup').classList.add('open');
-  
-      }
-      function hide_pop(){
-  document.getElementById('pup').classList.remove('open');
-  
-      }
 
-
-
-/*card animation*/
 
 ///menu navbar showup
 function show_menu(){

@@ -17,7 +17,6 @@ var getServicesFunction = function (isFromDashboard) {
     .then(response => response.json())
     .then(data => {
       console.log(data)
-      console.log(data)
       loader.style.display = "none";
 
       for (index in data.data) {
@@ -80,7 +79,7 @@ function serviceCardBuilder(index, title, description, details) {
     </div>
   </div>
   `;
-  document.getElementById('services_parent').innerHTML += htmlItem
+  document.getElementById('services').innerHTML += htmlItem
 
 }
 

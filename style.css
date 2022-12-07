@@ -54,6 +54,7 @@ header {
     background-repeat: no-repeat;
     cursor: pointer;
     display: none;
+    color: #3498db;
 
 
 }
@@ -226,11 +227,12 @@ section {
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
 }
 
 
 .contact-container div {
-    width: 50%;
+    width: 45%;
 }
 
 .contact-first-col {
@@ -246,8 +248,11 @@ section {
     width: 100%;
     border-style: solid;
     border-radius: 5px;
+    margin-right: 5%;
 
 }
+
+
 
 .contact-second-col {
     display: flex;
@@ -257,12 +262,13 @@ section {
 .contact-second-col textarea {
     resize: none;
     width: 100%;
-    margin: 25px;
     height: 100%;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
     padding: 20px;
+    margin: 25px 0;
+    margin-left: 5%;
 }
 
 
@@ -331,7 +337,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 50%;
 
 }
 
@@ -1103,7 +1109,7 @@ footer .container i {
         top: 70px;
         opacity: 1;
         width: 14em;
-        height: 10em;
+        height: 14em;
         margin-right: 2em;
         position: fixed;
         z-index: 2;

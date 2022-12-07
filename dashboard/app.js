@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    console.log("AD");
+
     getServicesFunction(true);
 
     $('[data-toggle="tooltip"]').tooltip();

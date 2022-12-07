@@ -29,3 +29,4 @@ sleep(3);
     echo json_encode(["data" => $rows]);
 $conn->close();
 ?>
+
