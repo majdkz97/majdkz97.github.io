@@ -66,7 +66,7 @@ header {
 
     margin-right: 2em;
     text-decoration: none;
-    /* display: none; */
+    display: none;
     height: 0;
     top: 70px;
     width: 14em;
@@ -1002,7 +1002,7 @@ section {
 
 footer {
     background-color: #3a054b;
-    padding: 20px 0 30px;
+    padding: 20px 0 10px;
     text-align: center;
 }
 
@@ -1011,22 +1011,22 @@ footer .container {
 }
 
 footer p {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    padding-top: 1em;
     transform: translateY(-50%);
-    left: 0;
+   
     color: rgb(0, 0, 0);
     font-size: 14px
 }
 
 footer .container i {
     color: #fff;
-    padding: 10px;
+    padding: 0px;
     font-size: 18px;
-    width: 39px;
+    width: 30px;
     margin-right: 5px;
-    height: 39px;
-    background: rgb(2, 2, 2);
+    height: 30px;
+    background: #3a054b;
     border-radius: 50%
 }
 
@@ -1107,18 +1107,21 @@ footer .container i {
         display: block;
         right: 0;
         top: 70px;
-        opacity: 1;
+         
         width: 14em;
         height: 14em;
         margin-right: 2em;
+        
         position: fixed;
-        z-index: 2;
+        
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         box-shadow: -2px -1px 52px 7px rgba(44, 4, 59, 1);
+         
 
     }
+    
 }
