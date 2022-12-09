@@ -394,6 +394,7 @@ section {
     transition: all 0.5s ease;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -823,99 +824,6 @@ section {
 }
 
 
-/*---Start About Us Section---*/
-
-.about-us {
-    padding-left: 0%;
-    padding-right: 0%;
-    height: 60em;
-}
-
-.about-us .our-story {
-    margin-top: 30px;
-    top: 75px;
-}
-
-
-.about-us .our-story .what-we-do-left {
-    float: left;
-    width: 33%;
-    position: relative;
-    height: 70px;
-    margin-left: 3%;
-    text-align: right;
-}
-
-.about-us .our-story .what-we-do-right {
-    float: right;
-    width: 33%;
-    height: 70px;
-    position: relative;
-    top: 75px;
-    margin-right: 3%;
-    text-align: left;
-}
-
-.about-us .our-story .what-we-do-lefti {
-    float: left;
-    width: 33%;
-    position: relative;
-    top: 170px;
-    height: 70px;
-    margin-left: 3%;
-    text-align: right;
-}
-
-.about-us .our-story p {
-    padding: 10px 0 0;
-    color: rgb(0, 0, 0);
-}
-
-.about-us .our-story h3 {
-    font-size: 16px;
-    color: rgb(0, 0, 0)
-}
-
-.about-us .our-story .back {
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    margin: 0 auto;
-    position: relative;
-    border: 3px solid #eee;
-}
-
-.about-us .our-story .back1 {
-    background: url(images/Screenshot\ \(288\).png);
-    background-position: 30%;
-    background-size: cover;
-}
-
-.about-us .our-story .back2 {
-    background: url(images/Screenshot\ \(288\).png);
-    background-position: 15%;
-    top: 75px;
-    background-size: cover;
-}
-
-.about-us .our-story .back3 {
-    background: url(images/Screenshot\ \(288\).png);
-    background-position: 30%;
-    background-size: cover;
-    top: 150px;
-}
-
-.about-us .our-story .clear-fix>div {
-    position: absolute;
-    width: 2px;
-    top: 100%;
-    left: 50%;
-    background: #eee;
-    height: 150px
-}
-
-/*---End About Us Section---*/
-
 
 
 /*---Start Our Team Section---*/
@@ -1015,7 +923,7 @@ footer p {
     padding-top: 1em;
     transform: translateY(-50%);
    
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 14px
 }
 
