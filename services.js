@@ -79,7 +79,7 @@ function serviceCardBuilder(index, title, description, details) {
     </div>
   </div>
   `;
-  document.getElementById('services').innerHTML += htmlItem
+  document.getElementById('services_list').innerHTML += htmlItem
 
 }
 
