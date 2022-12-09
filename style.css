@@ -510,7 +510,7 @@ section {
     margin-bottom: 3em;
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: scroll;    
 }
 
 .content {
@@ -956,6 +956,12 @@ footer .container i {
         background-attachment: fixed;
         /* image will not change on scroll */
 
+    }
+
+    .Services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
