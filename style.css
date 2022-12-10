@@ -683,23 +683,7 @@ section {
     transition: all .2s ease;
 }
 
-/* .flipIcon{
-    height: 3em;
-    width: 3em;
-    overflow: hidden;
-    
-    background: url('icons/repeat.png');
-    background-size: cover;
-    padding: 0.3em;
-    border-radius:0 12px 0 12px;
-    font-weight: bold;
-    font-size: 1.3em;
-    position: absolute;
-    top: -0.4em;
-    right: -0.4em;
-    cursor: pointer;
-    transform: scale(0.5);
-  } */
+
 .backBtn:hover {
     background-color: #e9e62b;
     color: rgb(3, 3, 3);
@@ -828,8 +812,7 @@ section {
 
 /*---Start Our Team Section---*/
 .our_team {
-    background: rgb(56, 1, 107);
-    background: linear-gradient(0deg, rgb(29, 3, 54) 0%, rgb(80, 12, 133) 63%);
+    background: linear-gradient(0deg, rgb(29, 3, 54) 0%, rgb(166, 81, 232) 63%);
 
 }
 
@@ -943,7 +926,7 @@ footer .container i {
 
 
 
-@media only screen and (min-width:980px) and (max-width:1800px) {
+@media only screen and (min-width:980px) {
     .main {
         width: 100%;
         min-height: 100vh;
